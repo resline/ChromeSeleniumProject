@@ -1,0 +1,36 @@
+version: 1
+name: ChromeSeleniumProject
+tagline: Projekt do automatyzacji testów przeglądarki Chrome z użyciem Selenium (repo świeżo zainicjowane).
+description: |-
+  ChromeSeleniumProject to repozytorium utworzone automatycznie przez narzędzie DevBoxer, którego nazwa wskazuje na planowane wykorzystanie frameworka Selenium do automatyzacji testów w przeglądarce Chrome. Obecnie repozytorium zawiera wyłącznie plik README.md z domyślną, wygenerowaną treścią – nie ma jeszcze żadnego kodu źródłowego, plików konfiguracyjnych (np. package.json, pom.xml) ani struktury katalogów typowej dla projektów testowych opartych o Selenium WebDriver.
+
+  Z uwagi na brak jakiejkolwiek zawartości poza plikiem README, nie da się jednoznacznie określić języka programowania (np. Java, Python, JavaScript) ani konkretnego frameworka testowego (np. TestNG, JUnit, pytest, WebDriverIO), które zostaną użyte w docelowej implementacji. Analiza ogranicza się więc do wniosków wynikających z samej nazwy repozytorium oraz komunikatu inicjalizacyjnego.
+
+  Projekt należy traktować jako punkt wyjściowy (szkielet) do dalszego rozwoju – kolejnym krokiem powinno być dodanie plików konfiguracyjnych, sterowników Selenium/ChromeDriver oraz pierwszych przypadków testowych automatyzujących interakcje z przeglądarką Chrome.
+features:
+  - name: Inicjalizacja repozytorium
+    description: Repozytorium zostało utworzone i skonfigurowane automatycznie przez DevBoxer, zawiera podstawowy plik README.
+    status: done
+  - name: Automatyzacja testów w Chrome przez Selenium
+    description: Docelowa funkcjonalność sugerowana nazwą projektu – uruchamianie i automatyzacja scenariuszy testowych w przeglądarce Chrome za pomocą Selenium WebDriver. Nie została jeszcze zaimplementowana.
+    status: planned
+  - name: Konfiguracja środowiska testowego
+    description: Dodanie plików konfiguracyjnych (np. package.json, pom.xml, requirements.txt) oraz sterownika ChromeDriver niezbędnych do uruchamiania testów.
+    status: planned
+stack:
+  languages: []
+  frameworks:
+    - Selenium (planowane)
+  infra: []
+links: {}
+status: paused
+tags:
+  - selenium
+  - chrome
+  - automatyzacja-testow
+  - webdriver
+  - szkielet-projektu
+ai:
+  generated_at: 2026-07-21T00:10:34.430Z
+  source_commit: f4bc8504fc3fc54bbeace319bb199a192429e06b
+locked: []
